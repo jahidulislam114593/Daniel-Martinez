@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+/*.container{
+	width: 1140px;
+	margin: 0 auto;
+}*/
+a{
+	text-decoration: none;
+}
+.home{
+	display: flex;
+}
+
+.left,
+.right{
+	width: 100%;
+	height: 100vh;
+}
+.left{
+	background: #015761;
+}
+.left h3{
+	margin-top: 24px;
+    margin-left: 26px;
+    color: #f7dc4f;
+    font-size: 16px;
+    font-weight: 500;
+}
+.left ul li{
+	list-style: none;
+	display: inline-block;
+	margin-top: 12px;
+    margin-left: 26px;
+}
+.left ul li a{
+	color: white;
+	font-size: 12px;
+	font-weight: 400;
+}
+.banner-title{
+	padding: 140px;
+	align-items: center;
+}
+.banner-title h4{
+	font-size: 28px;
+	font-weight: 500;
+	color: #f7dc4f;
+}
+.banner-title h1{
+	font-size: 58px;
+	color: white;
+
+}
+.banner-title p{
+	font-size: 12px;
+    color: white;
+    font-weight: 300;
+
+}
+.right{
+	background: white;
+	background-image: url(../image/01.PNG);
+	background-size: cover;
+}
+.right img{
+	width: 655px;
+    height: 620px;
+}
+.r-icon{
+	margin-left: 627px;
+    margin-top: 234px;
+}
+.r-icon ul{
+	list-style: none;
+    background: #f7dc4f;
+    width: 35px;
+    text-align: center;
+    height: 145px;
+    line-height: 22px;
+    transition: 0.3s;
+}
+.r-icon ul li a i{
+	padding: 10px;
+	font-size: 15px;
+	color: black;
+	transition: 0.3s;
+}
+.r-icon ul:hover{
+	background: #015761;
+	transition: 0.3s;
+}
+.r-icon ul li a i:hover{
+	color: #f7dc4f;
+	transition: 0.3s;
+}
+
+.about{
+	padding: 50px 0;
+	background: #f1f0f0;
+
+}
+.about-me{
+	text-align: center;
+	width: 600px;
+	margin: 0 auto;
+	height: auto;
+	
+	
+}
+.about-me h1{
+	margin-top: 56px;
+    color: #015761;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+.about-me p{
+	font-weight: 400;
+    margin-bottom: 28px;
+    font-size: 12px;
+}
+.about-me a button{
+	background: #f7dc4f;
+    color: #015761;
+    border: 0;
+    width: 140px;
+    height: 38px;
+    transition: 0.3s;
+}
+.about-me a button:hover{
+	background: #015761;
+	transition: 0.3s;
+	color: #f7dc4f;
+}
+.title{
+	padding: 50px 0;
+	background: white;
+	width: 100%;
+	height: auto;
+}
+.text{
+	text-align: center;
+	width: 600px;
+	margin: 0 auto;
+	height: auto;
+}
+.text h1{
+	color: #015761;
+	font-size: 46px;
+	font-weight: 800;
+	margin-bottom: 50px;
+}
+.img img{
+	width: 100%;
+	
+}
+.photo-section{
+	padding-bottom: 60px;
+}
+.gallery{
+	width: 1140px;
+	margin: 0 auto;
+}
+.photo{
+	display: flex;
+}
+.item-1 img{
+	width: 100%;
+	height: auto;
+	padding: 10px;
+}
+.item-2 img{
+	width: 100%;
+	height: auto;
+	padding: 10px;
+}
+.item-3 img{
+	width: 100%;
+	height: auto;
+	padding: 10px;
+}
+.footer{
+	display: flex;
+
+}
+.footer-left{
+	width: 100%;
+	height: 100vh;
+	background: url(../image/08.PNG);
+	background-size: cover;
+}
+.footer-right{
+	width: 100%;
+	height: 100vh;
+	background: #015761;
+}
+.contacts{
+	width: 400px;
+	margin: 60px auto;
+}
+.contacts h3{
+	font-size: 56px;
+    color: #f7dc4f;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.contacts h4{
+	font-size: 20px;
+    color: white;
+    padding-bottom: 16px;
+}
+.contact h5{
+	font-size: 14px;
+    font-weight: 500;
+    color: white;
+    padding-top: 12px;
+}
+.contact p{
+	font-size: 12px;
+    padding: 8px 0;
+    color: white;
+    line-height: 20.4px;
+}
+.footer-icon ul{
+	list-style: none;
+	padding: 10px 0px;
+}
+.footer-icon ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+.footer-icon ul li a i{
+	color: white;
+	font-size: 14px;
+}
+.copyright{
+	width: 100%;
+    text-align: center;
+    padding: 35px 0;
+    background: white;
+}
+.copyright p{
+	font-size: 12px;
+}
